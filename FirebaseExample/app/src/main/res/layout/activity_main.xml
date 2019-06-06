@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/ThemeOverlay.AppCompat.Light"
+    android:orientation="vertical">
+
+   <android.support.v7.widget.Toolbar
+       android:background="@color/colorPrimary"
+       android:layout_width="match_parent"
+       android:layout_height="?attr/actionBarSize"
+       android:id="@+id/toolbar"/>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="NestedWeights">
+
+                <com.google.android.gms.common.internal.SignInButtonImpl
+                    android:id="@+id/fb_database"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="100dp"
+                    android:text="@string/firebase_db"
+                    android:layout_height="100dp" />
+
+                <com.google.android.gms.common.internal.SignInButtonImpl
+                    android:id="@+id/fb_storage"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="100dp"
+                    android:text="@string/firebase_storage"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.gms.common.internal.SignInButtonImpl
+                    android:id="@+id/fb_cloud_message"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="100dp"
+                    android:text="@string/firebase_cloud_message"
+                    android:layout_height="100dp" />
+
+                <com.google.android.gms.common.internal.SignInButtonImpl
+                    android:id="@+id/fb_remote_config"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="100dp"
+                    android:text="@string/firebase_remote_config"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.gms.common.internal.SignInButtonImpl
+                android:id="@+id/google_map_btn"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_width="100dp"
+                android:text="@string/google_map"
+                android:layout_height="100dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

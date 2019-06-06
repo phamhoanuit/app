@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextTitleFont" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">@dimen/text_subtitle1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#474747</item>
+    </style>
+
+    <style name="TextBody1" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">#555555</item>
+        <item name="android:textSize">@dimen/text_body1</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!--toolbar-->
+    <style name="ToolbarTheme" parent="AppTheme">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="android:textColorSecondary">@color/colorWhite</item>
+    </style>
+    <!--end toolbar-->
+
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+    <!--<string name="google_map_api_key">AIzaSyBc1ShHHB6-9OQqHYieqt2Uoou_Aco-3nQ</string>-->
+    <!--<string name="google_map_api_key">AIzaSyCucqQT44VyDKICZXyp9MmVYDUGgm85s5Y</string>-->
+    <string name="google_map_api_key">AIzaSyB94JRqXEYbEdWU8aBU5lOdO3lEPb7gy2M</string>
+    <string name="app_name">FirebaseExample</string>
+    <string name="facebook_app_id">343091766392170</string>
+    <string name="fb_login_protocol_scheme">fb343091766392170</string>
+    <string name="mess_dialog_cant_get_email">Bạn hãy thử kết nối lại</string>
+    <string name="welcome_activity_toast_facebook_sign_in_fail">Tài khoản của bạn cần link đến tài khoản google trong setting</string>
+    <string name="msg_error_connect_server">Lỗi kết nối server</string>
+    <string name="title_app">Báo cáo thực tập</string>
+    <string name="facebool_login">Đăng nhập Facebook</string>
+    <string name="google_login">Đăng nhập Google</string>
+    <string name="firebase_db">Firebase Database</string>
+    <string name="firebase_cloud_message">Firebase Cloud Message</string>
+    <string name="google_map">Google Map</string>
+    <string name="firebase_storage">Firebase Storage</string>
+    <string name="firebase_remote_config">Remote Config</string>
+    <string name="log_out">Đăng xuất</string>
+    <string name="thucuong">Name</string>
+    <string name="gia">Price</string>
+    <string name="accept">Chap nhan</string>
+    <string name="loading" translatable="false">Loading...</string>
+    <string name="your_location">Vị trí của bạn</string>
+    <string name="start_address">Bạn hãy nhập vào điểm bắt đầu</string>
+    <string name="end_address">Bạn hãy nhập vào điểm kết thúc</string>
+
+    <array name="topic">
+        <item>hello</item>
+        <item>note</item>
+    </array>
+</resources>
