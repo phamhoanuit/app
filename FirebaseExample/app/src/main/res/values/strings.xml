@@ -1,7 +1,5 @@
 <resources>
-    <!--<string name="google_map_api_key">AIzaSyBc1ShHHB6-9OQqHYieqt2Uoou_Aco-3nQ</string>-->
-    <!--<string name="google_map_api_key">AIzaSyCucqQT44VyDKICZXyp9MmVYDUGgm85s5Y</string>-->
-    <string name="google_map_api_key">AIzaSyB94JRqXEYbEdWU8aBU5lOdO3lEPb7gy2M</string>
+    
     <string name="app_name">FirebaseExample</string>
     <string name="facebook_app_id">343091766392170</string>
     <string name="fb_login_protocol_scheme">fb343091766392170</string>
